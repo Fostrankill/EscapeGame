@@ -41,7 +41,7 @@ function WildDoor({ gotkey }) {
 }
 
 WildDoor.propTypes = {
-  gotkey: PropTypes.number.isRequired,
+  gotkey: PropTypes.bool.isRequired,
 };
 
 export default WildDoor;

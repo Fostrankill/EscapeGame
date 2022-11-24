@@ -13,6 +13,7 @@
 
 .titlename {
   margin-top: 0rem;
+  margin-bottom: 6rem;
   display: flex;
   justify-content: center;
   align-items: flex-start;
@@ -29,9 +30,11 @@ label {
   white-space: nowrap;
 }
 
-textarea {
+.ok3 {
   display: flex;
-
+  justify-content: center;
+  align-items: center;
+  text-align: center;
   vertical-align: center;
   padding-top: 2rem;
   border-radius: 30px;

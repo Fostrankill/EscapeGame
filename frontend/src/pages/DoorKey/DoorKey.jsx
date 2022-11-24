@@ -40,7 +40,7 @@ function DoorKey({ setGotKey, gotkey }) {
 
 DoorKey.propTypes = {
   setGotKey: PropTypes.func.isRequired,
-  gotkey: PropTypes.number.isRequired,
+  gotkey: PropTypes.bool.isRequired,
 };
 
 export default DoorKey;
