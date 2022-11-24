@@ -1,18 +1,20 @@
-import Home from "@pages/Home";
+import Homepage from "@pages/Home";
 import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
 import "./App.css";
 import "reset-css";
 import BuildingDoor from "@pages/BuildingDoor/BuildingDoor";
 import DoorCode from "@pages/DoorCode/DoorCode";
+import WC from "@pages/WC/WC";
 
 function App() {
   return (
     <Router>
       <div className="App">
         <Routes>
-          <Route path="/" element={<Home />} />
+          <Route path="/" element={<Homepage />} />
           <Route path="/building-door" element={<BuildingDoor />} />
           <Route path="/door-code" element={<DoorCode />} />
+          <Route path="/wc" element={<WC />} />
           {/* <Route path="/main-hall" element={<MainHall/>} />
           <Route path="/wild-door" element={<WildDoor />} />
           <Route path="/wc" element={<WC />} />
@@ -33,5 +35,4 @@ function App() {
     </Router>
   );
 }
-
 export default App;
