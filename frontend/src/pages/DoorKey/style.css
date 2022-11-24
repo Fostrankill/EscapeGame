@@ -14,17 +14,17 @@
   right: 53vw;
   transform: rotate(-90deg);
   position: absolute;
-  z-index: 1;
+  z-index: 5;
   display: hidden;
 }
 
 #passpartoutimg {
   z-index: 1;
   position: absolute;
-  top: 65vh;
-  right: 26vw;
-  height: 35vh;
-  width: 49vh;
+  top: 60vh;
+  right: 25vw;
+  height: 40vh;
+  width: 55vh;
 }
 
 #passpartmessage {
@@ -51,4 +51,16 @@
   width: 80%;
   font-size: 1.5rem;
   font-style: italic;
+}
+
+#getkeybutton {
+  z-index: 3;
+  top: 20vh;
+  right: 37vw;
+  width: 20vw;
+  height: 40vh;
+  position: absolute;
+  background-color: transparent;
+  border: solid transparent 4px;
+  cursor: pointer;
 }
