@@ -5,6 +5,7 @@ import "reset-css";
 import BuildingDoor from "@pages/BuildingDoor/BuildingDoor";
 import DoorCode from "@pages/DoorCode/DoorCode";
 import WC from "@pages/WC/WC";
+import CafeCabinet from "@pages/CafeCabinet/CafeCabinet";
 
 function App() {
   return (
@@ -15,6 +16,7 @@ function App() {
           <Route path="/building-door" element={<BuildingDoor />} />
           <Route path="/door-code" element={<DoorCode />} />
           <Route path="/wc" element={<WC />} />
+          <Route path="/cafe-cabinet" element={<CafeCabinet />} />
           {/* <Route path="/main-hall" element={<MainHall/>} />
           <Route path="/wild-door" element={<WildDoor />} />
           <Route path="/wc" element={<WC />} />
@@ -24,11 +26,11 @@ function App() {
           <Route path="/loic" element={<Loic />} />
           <Route path="/table-js" element={<TableJS />} />
           <Route path="/projector" element={<Projector />} />
-          <Route path="/data-corner" element={<DataCorner />} />
+          
           <Route path="/office" element={<Office />} />
           <Route path="/fridge-open" element={<FridgeOpen />} />
           <Route path="/fridge-close" element={<FridgeClose />} />
-          <Route path="/cafe-cabinet" element={<CafeCabinet />} />
+          
           <Route path="/wc-mirror" element={<WcMirror />} /> */}
         </Routes>
       </div>

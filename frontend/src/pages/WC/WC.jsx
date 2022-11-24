@@ -6,6 +6,7 @@ function Wc() {
   return (
     <div className="back">
       <textarea
+        className="ok4"
         placeholder="Pseudo"
         value="Une odeur inhabituelle émane de cet endroit, au moins mon passeport ne prend pas l'eau..."
       />
