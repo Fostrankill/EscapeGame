@@ -1,0 +1,44 @@
+img {
+  height: 100vh;
+  width: 40vw;
+  z-index: -1;
+}
+
+#button {
+  height: 10vh;
+  width: 15vw;
+  top: 25vh;
+  text-decoration: none;
+  font-size: 10vh;
+  color: rgba(255, 255, 255, 0);
+  position: absolute;
+  z-index: 1;
+  display: hidden;
+}
+
+.BackgroundColor {
+  background-color: black;
+  position: relative;
+}
+
+.BackgroundColor #textFridge {
+  position: absolute;
+  top: 5vh;
+  left: 30vw;
+}
+
+#textFridge {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  vertical-align: center;
+  padding-top: 1rem;
+  border-radius: 30px;
+  border: solid rgb(101, 90, 90) 8px;
+  background-color: beige;
+  width: 5rem;
+  height: 4rem;
+  font-size: 0.8rem;
+  text-overflow: clip;
+}
