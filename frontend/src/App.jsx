@@ -1,19 +1,17 @@
 import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
 import "./App.css";
 import "reset-css";
-import Homepage from "./pages/Home";
-import BuildingDoor from "./pages/BuildingDoor/BuildingDoor";
-import DoorCode from "./pages/DoorCode/DoorCode";
-import WildDoor from "./pages/WildDoor/WildDoor";
-import WC from "./pages/WC/WC";
-import FirstFloor from "./pages/FirstFloor/FirstFloor";
-import MainHall from "./pages/MainHall/MainHall";
-import DoorKey from "./pages/DoorKey/DoorKey";
-import Projector from "./pages/Projector/Projector";
-import Office from "./pages/Office/Office";
-import DataCorner from "./pages/DataCorner/DataCorner";
-import FridgeOpen from "./pages/FridgeOpen/FridgeOpen";
-import FridgeClose from "./pages/FridgeClose/FridgeClose";
+import BuildingDoor from "@pages/BuildingDoor/BuildingDoor";
+import DoorCode from "@pages/DoorCode/DoorCode";
+// import WildDoor from "@pages/WildDoor/WildDoor";
+import WC from "@pages/WC/WC";
+import CafeCabinet from "@pages/CafeCabinet/CafeCabinet";
+import FirstFloor from "@pages/FirstFloor/FirstFloor";
+// import MainHall from "@pages/MainHall/MainHall";
+import DoorKey from "@pages/DoorKey/DoorKey";
+import Projector from "@pages/Projector/Projector";
+import Office from "@pages/Office/Office";
+import TableJS from "@pages/TableJS/TableJS";
 
 function App() {
   return (
@@ -23,6 +21,10 @@ function App() {
           <Route path="/" element={<Homepage />} />
           <Route path="/building-door" element={<BuildingDoor />} />
           <Route path="/door-code" element={<DoorCode />} />
+          <Route path="/wc" element={<WC />} />
+          <Route path="/cafe-cabinet" element={<CafeCabinet />} />
+          <Route path="/table-js" element={<TableJS />} />
+          {/* <Route path="/main-hall" element={<MainHall/>} />
           <Route path="/main-hall" element={<MainHall />} />
           <Route path="/wild-door" element={<WildDoor />} />
           <Route path="/wc" element={<WC />} />
