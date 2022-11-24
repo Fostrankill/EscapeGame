@@ -5,8 +5,15 @@ import image from "../../assets/Wild/DATA/DataCorner.jpg";
 function DataCorner() {
   return (
     <div className="BackgroundColor">
-      <textarea id="textData" value="Dans le frigo ?" />
       <Link id="fridgeButton" to="/fridge-close">
+        {" "}
+        ▦{" "}
+      </Link>
+      <Link id="microButton" to="/micro-wave">
+        {" "}
+        ▦{" "}
+      </Link>
+      <Link id="cafeButton" to="/cafe-cabinet">
         {" "}
         ▦{" "}
       </Link>
