@@ -1,0 +1,46 @@
+img {
+  height: 100vh;
+  width: 40vw;
+  z-index: -1;
+}
+
+a {
+  text-decoration: none;
+  height: 10vh;
+  font-size: 10vh;
+  color: white;
+  width: 6vw;
+  top: 90vh;
+  right: 45vw;
+  position: absolute;
+  z-index: 1;
+  display: hidden;
+  transform: rotate(270deg);
+}
+
+.BackgroundColor {
+  background-color: black;
+  position: relative;
+}
+
+.BackgroundColor #textFridgeOpen {
+  position: absolute;
+  top: 5vh;
+  left: 30vw;
+}
+
+#textFridgeOpen {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  vertical-align: center;
+  padding-top: 1rem;
+  border-radius: 30px;
+  border: solid rgb(101, 90, 90) 8px;
+  background-color: beige;
+  width: 5rem;
+  height: 13rem;
+  font-size: 0.8rem;
+  text-overflow: clip;
+}
