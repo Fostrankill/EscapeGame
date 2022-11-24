@@ -1,7 +1,9 @@
+import { useNavigate } from "react-router";
 import "./style.css";
 import { Link } from "react-router-dom";
 
 export default function Homepage() {
+  const navigate = useNavigate();
   return (
     <div className="mainpic">
       <h1 className="titlename">Where is my %*!# PASSPORT ?</h1>
@@ -17,6 +19,15 @@ export default function Homepage() {
       <Link to="/building-door">
         <button type="submit">Jouer</button>
       </Link>
+      <button
+        id="playbutton"
+        type="submit"
+        onClick={() => {
+          navigate("/building-door");
+        }}
+      >
+        Jouer
+      </button>
     </div>
   );
 }

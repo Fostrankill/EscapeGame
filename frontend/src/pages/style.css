@@ -46,7 +46,8 @@ label {
   text-overflow: clip;
 }
 
-button {
+#playbutton {
+  margin-top: 5rem;
   font-family: "ok";
   border-radius: 30px;
   font-size: 2.2rem;
