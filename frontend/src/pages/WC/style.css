@@ -1,11 +1,11 @@
-img {
+#wcimage {
   border: 1px solid red;
   height: 100vh;
   width: 60vw;
   z-index: -1;
 }
 
-a {
+#wclink {
   text-decoration: none;
   height: 10vh;
   font-size: 10vh;
@@ -16,6 +16,7 @@ a {
   position: absolute;
   z-index: 1;
   display: hidden;
+  transform: rotate(-90deg);
 }
 
 .back {
@@ -31,7 +32,7 @@ a {
   left: 57vw;
 }
 
-textarea {
+#textwc {
   display: flex;
   justify-content: center;
   align-items: center;

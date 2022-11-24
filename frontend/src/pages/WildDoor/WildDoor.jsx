@@ -7,7 +7,7 @@ function WildDoor() {
   const [lockedDoor, setLockedDoor] = useState(true);
   return (
     <>
-      <Link id="wilddoorbacklink" to="/mainhall">
+      <Link id="wilddoorbacklink" to="/main-hall">
         {" "}
         ❮
       </Link>
@@ -29,7 +29,7 @@ function WildDoor() {
       ) : (
         <textarea
           placeholder="Pseudo"
-          value="La porte est fermée à clé..."
+          defaultValue="La porte est fermée à clé..."
           id="lockeddoormsg"
         />
       )}

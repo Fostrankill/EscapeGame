@@ -9,7 +9,7 @@ function FirstFloor() {
         {" "}
       </Link>
       <img id="firstfloorimg" src={image} alt="firstfloorwild" />
-      <Link id="fflinkback" to="/mainhall">
+      <Link id="fflinkback" to="/main-hall">
         {" "}
         ❮
       </Link>

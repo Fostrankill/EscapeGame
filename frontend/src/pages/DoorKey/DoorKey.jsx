@@ -14,7 +14,7 @@ function DoorKey() {
       <img id="passpartoutimg" src={passepartout} alt="passe-partout" />
       <textarea
         placeholder="Pseudo"
-        value="Bravo! Tu as trouvé la clé ! Retourne vite ouvrir la porte de la Wild
+        defaultValue="Bravo! Tu as trouvé la clé ! Retourne vite ouvrir la porte de la Wild
           Code School!"
         id="passpartmessage"
       />

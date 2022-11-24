@@ -7,10 +7,14 @@ function Wc() {
     <div className="back">
       <textarea
         placeholder="Pseudo"
-        value="Une odeur inhabituelle émane de cet endroit, au moins mon passeport ne prend pas l'eau..."
+        defaultValue="Une odeur inhabituelle émane de cet endroit, au moins mon passeport ne prend pas l'eau..."
+        id="textwc"
       />
-      <Link to="/wild-hall"> ↓</Link>
-      <img src={image} alt="entrancewild" />
+      <Link id="wclink" to="/main-hall">
+        {" "}
+        ❰
+      </Link>
+      <img id="wcimage" src={image} alt="entrancewild" />
     </div>
   );
 }

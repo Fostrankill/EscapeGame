@@ -7,7 +7,7 @@ function Office() {
   const [officemsg, setOfficemsg] = useState(false);
   return (
     <>
-      <Link id="officebacklink" to="/mainhall">
+      <Link id="officebacklink" to="/wild-hall">
         {" "}
         ❮
       </Link>
@@ -27,7 +27,7 @@ function Office() {
       {officemsg ? (
         <textarea
           placeholder="textbureau"
-          value="Beaucoup de bazar mais pas de passeport en vue..."
+          defaultValue="Beaucoup de bazar mais pas de passeport en vue..."
           id="textoffice"
         />
       ) : (

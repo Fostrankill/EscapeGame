@@ -7,7 +7,7 @@ function Projector() {
   const [phoneGirl, setPhoneGirl] = useState(false);
   return (
     <>
-      <Link id="projectorbacklink" to="/mainhall">
+      <Link id="projectorbacklink" to="/wild-hall">
         {" "}
         ❮
       </Link>
@@ -27,7 +27,7 @@ function Projector() {
       {phoneGirl ? (
         <textarea
           placeholder="Pseudo"
-          value="Ton passeport? Tu vois pas que je suis au téléphone?!? 😠😠"
+          defaultValue="Ton passeport? Tu vois pas que je suis au téléphone?!? 😠😠"
           id="textgirl"
         />
       ) : (

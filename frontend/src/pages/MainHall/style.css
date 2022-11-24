@@ -70,6 +70,8 @@
 }
 
 .TextWild {
+  width: 15vw;
+  height: 4vh;
   font-size: 90%;
   top: 65vh;
   right: 72vw;
@@ -84,6 +86,8 @@
 }
 
 .TextWC {
+  width: 15vw;
+  height: 4vh;
   top: 60vh;
   right: 56vw;
   position: absolute;
@@ -98,6 +102,8 @@
 }
 
 .TextBackyard {
+  width: 15vw;
+  height: 4vh;
   font-size: 90%;
   top: 60vh;
   right: 33vw;
@@ -113,6 +119,7 @@
 .TextFirstFloor {
   font-size: 90%;
   width: 15vw;
+  height: 4vh;
   top: 65vh;
   right: 5vw;
   position: absolute;
