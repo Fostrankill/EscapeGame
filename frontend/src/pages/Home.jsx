@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 import "./style.css";
 
 export default function Homepage() {
@@ -17,6 +16,3 @@ export default function Homepage() {
     </div>
   );
 }
-=======
-export default function Home() {}
->>>>>>> 0114c65aeb326736506d9e1e62a56a583ddbc62a
