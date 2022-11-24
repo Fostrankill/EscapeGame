@@ -1,4 +1,4 @@
-import Home from "@pages/Home";
+import Homepage from "@pages/Home";
 import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
 import "./App.css";
 import "reset-css";
@@ -16,10 +16,10 @@ function App() {
     <Router>
       <div className="App">
         <Routes>
-          <Route path="/" element={<Home />} />
+          <Route path="/" element={<Homepage />} />
           <Route path="/building-door" element={<BuildingDoor />} />
           <Route path="/door-code" element={<DoorCode />} />
-          <Route path="/mainhall" element={<MainHall />} />
+          <Route path="/main-hall" element={<MainHall />} />
           <Route path="/wild-door" element={<WildDoor />} />
           <Route path="/wc" element={<WC />} />
           <Route path="/backyard" element={<Backyard />} />
@@ -39,5 +39,4 @@ function App() {
     </Router>
   );
 }
-
 export default App;
