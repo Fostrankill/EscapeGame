@@ -12,7 +12,6 @@ function jsmania() {
         id="textwc"
       />
       <Link className="tablestyle" to="/wild-hall">
-        {" "}
         ❰
       </Link>
       <img id="imagejs" src={image12} alt="imagejs" />

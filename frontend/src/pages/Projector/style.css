@@ -8,7 +8,7 @@
   text-decoration: none;
   color: white;
   height: 2vh;
-  font-size: 10vh;
+  font-size: 5vw;
   width: 1.2vw;
   top: 97vh;
   right: 53vw;
@@ -17,20 +17,6 @@
   z-index: 1;
   display: hidden;
 }
-
-/* #keyholewilddoor {
-  border: 1px solid black;
-  text-decoration: none;
-  height: 4vh;
-  font-size: 10vh;
-  width: 6vw;
-  top: 53vh;
-  right: 55vw;
-  transform: rotate(-90deg);
-  position: absolute;
-  z-index: 1;
-  display: hidden;
-} */
 
 #textgirl {
   display: flex;
@@ -63,4 +49,8 @@
   position: absolute;
   z-index: 1;
   background-color: transparent;
+}
+
+.projector {
+  background-color: black;
 }

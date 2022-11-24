@@ -1,4 +1,4 @@
-img {
+.back2 img {
   height: 100vh;
   width: 60vw;
   z-index: -1;
@@ -7,11 +7,10 @@ img {
 .cafex {
   text-decoration: none;
   height: 10vh;
-  font-size: 10vh;
+  font-size: 5vw;
   color: rgb(255, 255, 255);
-  width: 65vw;
   top: 60vh;
-  right: 40vw;
+  left: 22vw;
   position: absolute;
   z-index: 1;
   display: hidden;

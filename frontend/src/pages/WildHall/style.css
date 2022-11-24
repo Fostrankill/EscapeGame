@@ -6,8 +6,7 @@
 
 .Table {
   text-decoration: none;
-  height: 40vh;
-  font-size: 10vh;
+  font-size: 5vw;
   width: 6vw;
   top: 82vh;
   transform: rotate(0deg);
@@ -19,12 +18,10 @@
 
 .Projector {
   text-decoration: none;
-  height: 40vh;
-  font-size: 10vh;
-  width: 6vw;
-  top: 42vh;
+  font-size: 5vw;
+  top: 57vh;
   transform: rotate(90deg);
-  right: 50vw;
+  right: 41vw;
   position: absolute;
   z-index: 1;
   color: white;
@@ -32,10 +29,8 @@
 
 .Office {
   text-decoration: none;
-  height: 20vh;
-  font-size: 10vh;
-  width: 6vw;
-  top: 55vh;
+  font-size: 5vw;
+  top: 61vh;
   transform: rotate(90deg);
   right: 7vw;
   position: absolute;
@@ -46,9 +41,8 @@
 .Data {
   text-decoration: none;
   height: 20vh;
-  font-size: 10vh;
-  width: 6vw;
-  top: 51vh;
+  font-size: 5vw;
+  top: 52vh;
   transform: rotate(90deg);
   right: 29vw;
   position: absolute;
