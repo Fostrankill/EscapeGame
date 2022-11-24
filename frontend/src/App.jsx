@@ -11,8 +11,10 @@ import MainHall from "@pages/MainHall/MainHall";
 import DoorKey from "@pages/DoorKey/DoorKey";
 import Projector from "@pages/Projector/Projector";
 import Office from "@pages/Office/Office";
+import { useState } from "react";
 
 function App() {
+  const [gotkey, setGotKey] = useState(false);
   return (
     <Router>
       <div className="App">
@@ -21,10 +23,13 @@ function App() {
           <Route path="/building-door" element={<BuildingDoor />} />
           <Route path="/door-code" element={<DoorCode />} />
           <Route path="/main-hall" element={<MainHall />} />
-          <Route path="/wild-door" element={<WildDoor />} />
+          <Route path="/wild-door" element={<WildDoor gotkey={gotkey} />} />
           <Route path="/wc" element={<WC />} />
           {/* <Route path="/backyard" element={<Backyard />} /> */}
-          <Route path="/door-key" element={<DoorKey />} />
+          <Route
+            path="/door-key"
+            element={<DoorKey gotkey={gotkey} setGotKey={setGotKey} />}
+          />
           <Route path="/first-floor" element={<FirstFloor />} />
           <Route path="/projector" element={<Projector />} />
           <Route path="/office" element={<Office />} />
