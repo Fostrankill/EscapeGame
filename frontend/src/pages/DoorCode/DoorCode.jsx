@@ -1,8 +1,26 @@
-import React from "react";
+import { useState } from "react";
+import { Link, Navigate } from "react-router-dom";
+import doorCode from "../../assets/Entrée/DoorCode.jpg";
 import "./style.css";
 
-function DoorCode() {
-  return <div className="doorcode">DoorCode</div>;
+export default function DoorCode() {
+  const [passWordInput, setPassWordInput] = useState("");
+  const [passWordAttempt, setPassWordAttempt] = useState("");
+  return (
+    <div className="door-code">
+      <img src={doorCode} alt="door-code" />
+      <input
+        type="text"
+        value={passWordInput}
+        onChange={(evt) => setPassWordInput(evt.target.value)}
+      />
+      <button type="submit" onClick={() => setPassWordAttempt(passWordInput)}>
+        Enter
+      </button>
+      {passWordAttempt === "hello" ? (
+        <Navigate to="/main-hall" replace />
+      ) : null}
+      <Link to="/building-door">❰</Link>
+    </div>
+  );
 }
-
-export default DoorCode;
