@@ -5,8 +5,10 @@ import image from "../../assets/Entrée/BuildingDoor.jpg";
 function BuildingDoor() {
   return (
     <>
-      <Link to="/door-code"> ❰</Link>
-      <img src={image} alt="entrancewild" />
+      <Link id="buildingdoorlink" to="/door-code">
+        {" "}
+      </Link>
+      <img id="buildingdoorimg" src={image} alt="entrancewild" />
     </>
   );
 }
