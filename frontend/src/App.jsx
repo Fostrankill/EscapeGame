@@ -6,10 +6,11 @@ import BuildingDoor from "@pages/BuildingDoor/BuildingDoor";
 import DoorCode from "@pages/DoorCode/DoorCode";
 import WildDoor from "@pages/WildDoor/WildDoor";
 import WC from "@pages/WC/WC";
-import Backyard from "@pages/Backyard/Backyard";
 import FirstFloor from "@pages/FirstFloor/FirstFloor";
 import MainHall from "@pages/MainHall/MainHall";
-import WildHall from "@pages/WildHall/WildHall";
+import DoorKey from "@pages/DoorKey/DoorKey";
+import Projector from "@pages/Projector/Projector";
+import Office from "@pages/Office/Office";
 
 function App() {
   return (
@@ -22,14 +23,15 @@ function App() {
           <Route path="/main-hall" element={<MainHall />} />
           <Route path="/wild-door" element={<WildDoor />} />
           <Route path="/wc" element={<WC />} />
-          <Route path="/backyard" element={<Backyard />} />
+          {/* <Route path="/backyard" element={<Backyard />} /> */}
+          <Route path="/door-key" element={<DoorKey />} />
           <Route path="/first-floor" element={<FirstFloor />} />
-          <Route path="/wild-hall" element={<WildHall />} />
+          <Route path="/projector" element={<Projector />} />
+          <Route path="/office" element={<Office />} />
+          {/* <Route path="/wild-hall" element={<WildHall />} /> */}
           {/* <Route path="/loic" element={<Loic />} />
           <Route path="/table-js" element={<TableJS />} />
-          <Route path="/projector" element={<Projector />} />
           <Route path="/data-corner" element={<DataCorner />} />
-          <Route path="/office" element={<Office />} />
           <Route path="/fridge-open" element={<FridgeOpen />} />
           <Route path="/fridge-close" element={<FridgeClose />} />
           <Route path="/cafe-cabinet" element={<CafeCabinet />} />

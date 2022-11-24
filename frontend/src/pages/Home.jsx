@@ -1,6 +1,8 @@
+import { useNavigate } from "react-router";
 import "./style.css";
 
 export default function Homepage() {
+  const navigate = useNavigate();
   return (
     <div className="mainpic">
       <h1 className="titlename">Where is my %*!# PASSPORT ?</h1>
@@ -12,7 +14,15 @@ export default function Homepage() {
             Un message mystérieux vous indique sa présence sur votre lieu de formation, dépêchez vous l'heure tourne et votre avion de nous attendra pas ! "
         />
       </label>
-      <button type="submit">Jouer</button>
+      <button
+        id="playbutton"
+        type="submit"
+        onClick={() => {
+          navigate("/building-door");
+        }}
+      >
+        Jouer
+      </button>
     </div>
   );
 }

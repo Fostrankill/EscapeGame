@@ -11,7 +11,7 @@ export default function DoorCode() {
       <img src={doorCode} alt="door-code" />
       <input
         type="text"
-        value={passWordInput}
+        defaultValue={passWordInput}
         onChange={(evt) => setPassWordInput(evt.target.value)}
       />
       <button type="submit" onClick={() => setPassWordAttempt(passWordInput)}>
