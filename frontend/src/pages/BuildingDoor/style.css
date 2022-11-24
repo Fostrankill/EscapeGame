@@ -1,0 +1,12 @@
+div {
+  background: url(../../assets/Entrée/BuildingDoor.jpg) no-repeat;
+  height: 100vh;
+  background-size: 100%;
+}
+button {
+  height: 10vh;
+  width: 5vw;
+  position: absolute;
+  top: 70vh;
+  right: 1vw;
+}
