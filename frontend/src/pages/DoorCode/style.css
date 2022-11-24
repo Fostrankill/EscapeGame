@@ -1,6 +1,36 @@
-.doorcode {
-  background: url(../../assets/Entrée/DoorCode.jpg) no-repeat;
-  height: 1120px;
-  width: 1200px;
-  background-size: contain;
+.door-code {
+  background-color: black;
+  position: relative;
+}
+
+.door-code img {
+  height: 100vh;
+  width: 40vw;
+  background-repeat: no-repeat;
+}
+
+.door-code input {
+  position: absolute;
+  right: 44vw;
+  top: 75vh;
+  width: 10vw;
+}
+
+.door-code a {
+  z-index: 1;
+  position: absolute;
+  bottom: 5vh;
+  left: 62vw;
+  font-size: 4rem;
+  text-decoration: none;
+  transform: rotate(270deg);
+  color: white;
+}
+
+.door-code button {
+  position: absolute;
+  right: 44.8vw;
+  top: 79vh;
+  height: 6.6vh;
+  border: 2px solid black;
 }
