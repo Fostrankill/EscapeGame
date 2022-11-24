@@ -5,54 +5,45 @@ img {
 }
 
 #fridgeButton {
-  height: 10vh;
-  width: 22vw;
-  top: 45vh;
+  width: 2vw;
+  top: 47vh;
+  left: 41vw;
   text-decoration: none;
   font-size: 4vh;
-  color: rgb(204, 12, 12);
+  color: rgba(204, 12, 12, 0);
   position: absolute;
   z-index: 1;
   display: hidden;
-  border-radius: green;
+  transform: initial;
 }
 
 #microButton {
-  height: 10vh;
-  width: 22vw;
-  top: 45vh;
+  width: 2vw;
+  aspect-ratio: 1;
+  top: 49vh;
+  left: 44vw;
   text-decoration: none;
   font-size: 4vh;
-  color: rgb(204, 12, 12);
+  color: rgba(41, 12, 204, 0);
   position: absolute;
-  z-index: 1;
   display: hidden;
-  border-radius: green;
+  transform: initial;
+}
+
+#cafeButton {
+  width: 10vw;
+  top: 55vh;
+  left: 30vw;
+  text-decoration: none;
+  font-size: 10vh;
+  color: rgba(255, 255, 255, 0);
+  position: absolute;
+  aspect-ratio: 1;
+  display: hidden;
+  transform: initial;
 }
 
 .BackgroundColor {
   background-color: black;
   position: relative;
-}
-
-.BackgroundColor #textData {
-  position: absolute;
-  top: 5vh;
-  left: 30vw;
-}
-
-#textData {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  text-align: center;
-  vertical-align: center;
-  padding-top: 1rem;
-  border-radius: 30px;
-  border: solid rgb(101, 90, 90) 8px;
-  background-color: beige;
-  width: 5rem;
-  height: 4rem;
-  font-size: 0.8rem;
-  text-overflow: clip;
 }
