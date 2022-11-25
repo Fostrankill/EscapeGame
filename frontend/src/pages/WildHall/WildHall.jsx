@@ -6,10 +6,11 @@ import ImageWildHall from "../../assets/Wild/WildHall.jpg";
 export default function WildHall() {
   const [apple, setApple] = useState(false);
   return (
-    <>
+    <div className="wild-hall">
       <Link className="Table" to="/table-js">
         ❰
       </Link>
+
       <textarea
         className="TextTableJs"
         placeholder="Pseudo"
@@ -58,6 +59,6 @@ export default function WildHall() {
       >
         {" "}
       </button>
-    </>
+    </div>
   );
 }
