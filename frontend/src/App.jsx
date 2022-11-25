@@ -19,7 +19,9 @@ import DataCorner from "@pages/DataCorner/DataCorner";
 import FridgeOpen from "@pages/FridgeOpen/FridgeOpen";
 import FridgeClose from "@pages/FridgeClose/FridgeClose";
 import LoicMonster from "@pages/LoicMonster/LoicMonster";
+import Loose from "@pages/Loose/Loose";
 import Loic from "./pages/Loic/Loic";
+import Timer from "./components/Timer/Timer";
 import { QuestContextProvider } from "./contexts/QuestObject";
 
 function App() {
@@ -27,6 +29,7 @@ function App() {
   return (
     <QuestContextProvider>
       <Router>
+        <Timer />
         <div className="App">
           <Routes>
             <Route path="/" element={<Homepage />} />
@@ -44,10 +47,12 @@ function App() {
             />
             <Route path="/first-floor" element={<FirstFloor />} />
             <Route path="/wild-hall" element={<WildHall />} />
+            <Route path="/loose" element={<Loose />} />
             <Route path="/loic" element={<Loic />} />
             <Route path="/loic-monster" element={<LoicMonster />} />
             <Route path="/projector" element={<Projector />} />
             <Route path="/office" element={<Office />} />
+            <Route path="/data-corner" element={<DataCorner />} />
             <Route path="/data-corner" element={<DataCorner />} />
             <Route path="/fridge-open" element={<FridgeOpen />} />
             <Route path="/fridge-close" element={<FridgeClose />} />
