@@ -1,6 +1,6 @@
 .ImageWildHall {
   height: 100vh;
-  width: 100vw;
+  width: 70vw;
   z-index: -1;
 }
 
@@ -19,9 +19,9 @@
 .Projector {
   text-decoration: none;
   font-size: 5vw;
-  top: 57vh;
+  top: 62vh;
   transform: rotate(90deg);
-  right: 41vw;
+  right: 50vw;
   position: absolute;
   z-index: 1;
   color: white;
@@ -31,8 +31,8 @@
   text-decoration: none;
   font-size: 5vw;
   top: 61vh;
-  transform: rotate(90deg);
-  right: 7vw;
+  transform: rotate(180deg);
+  right: 20vw;
   position: absolute;
   z-index: 1;
   color: white;
@@ -44,15 +44,15 @@
   font-size: 5vw;
   top: 52vh;
   transform: rotate(90deg);
-  right: 29vw;
+  right: 35vw;
   position: absolute;
   z-index: 1;
   color: white;
 }
 
 .TextTableJs {
-  font-size: 90%;
-  height: 2vh;
+  font-size: 1.2rem;
+  height: 5vh;
   width: 20vh;
   top: 85vh;
   right: 60vw;
@@ -65,11 +65,11 @@
 }
 
 .TextProjector {
-  font-size: 90%;
-  height: 2vh;
+  font-size: 1.2rem;
+  height: 5vh;
   width: 20vh;
-  top: 65vh;
-  right: 40vw;
+  top: 57vh;
+  right: 48vw;
   position: absolute;
   z-index: 1;
   padding-top: 0vw;
@@ -78,11 +78,11 @@
   text-align: center;
 }
 .TextOffice {
-  font-size: 90%;
-  height: 2vh;
+  font-size: 1.2rem;
+  height: 5vh;
   width: 20vh;
-  top: 70vh;
-  right: 0vw;
+  top: 73vh;
+  right: 17vw;
   position: absolute;
   z-index: 1;
   padding-top: 0vw;
@@ -91,15 +91,48 @@
   text-align: center;
 }
 .TextData {
-  font-size: 90%;
-  height: 2vh;
+  font-size: 1.2rem;
+  height: 5vh;
   width: 20vh;
-  top: 55vh;
-  right: 22vw;
+  top: 53vh;
+  right: 30vw;
   position: absolute;
   z-index: 1;
   padding-top: 0vw;
   border: solid rgb(101, 90, 90) 4px;
   background-color: beige;
   text-align: center;
+}
+#appletext {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  vertical-align: center;
+  padding-top: 2rem;
+  border-radius: 30px;
+  border: solid rgb(101, 90, 90) 8px;
+  background-color: beige;
+  width: 12vw;
+  height: 6vh;
+  font-size: 1.2rem;
+  text-overflow: clip;
+  position: absolute;
+  top: 85vh;
+  right: 40vw;
+}
+
+#applebutton {
+  border: 1px solid transparent;
+  text-decoration: none;
+  height: 25vh;
+  font-size: 10vh;
+  width: 23vw;
+  top: 80vh;
+  right: 23vw;
+  transform: rotate(-90deg);
+  position: absolute;
+  z-index: 1;
+  background-color: transparent;
+  cursor: pointer;
 }

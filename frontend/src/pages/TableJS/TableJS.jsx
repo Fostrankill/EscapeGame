@@ -8,7 +8,7 @@ function jsmania() {
       <textarea
         className="ok9"
         placeholder="Pseudo"
-        defaultValue="De jeunes étudiants sont en pleine activité, quelque chose me dis que ce n'est pas normal !"
+        defaultValue="De jeunes étudiants sont en pleine activité, quelque chose me dit que ce n'est pas normal !"
         id="textwc"
       />
       <Link className="tablestyle" to="/wild-hall">
