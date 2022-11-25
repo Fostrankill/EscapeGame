@@ -1,13 +1,13 @@
-img {
+.data-corner img {
   height: 100vh;
-  width: 40vw;
+  width: 80vw;
   z-index: -1;
 }
 
 #fridgeButton {
   width: 2vw;
   top: 47vh;
-  left: 41vw;
+  left: 33vw;
   text-decoration: none;
   font-size: 4vh;
   color: rgba(204, 12, 12, 0);
@@ -18,12 +18,12 @@ img {
 }
 
 #microButton {
-  width: 2vw;
+  width: 2.7vw;
+  height: 2.7vh;
   aspect-ratio: 1;
-  top: 49vh;
-  left: 44vw;
+  top: 50.7vh;
+  left: 37.6vw;
   text-decoration: none;
-  font-size: 4vh;
   color: rgba(41, 12, 204, 0);
   position: absolute;
   display: hidden;
@@ -32,10 +32,10 @@ img {
 
 #cafeButton {
   width: 10vw;
-  top: 55vh;
-  left: 30vw;
+  top: 60vh;
+  left: 15vw;
   text-decoration: none;
-  font-size: 10vh;
+  font-size: 5vw;
   color: rgba(255, 255, 255, 0);
   position: absolute;
   aspect-ratio: 1;
@@ -43,7 +43,17 @@ img {
   transform: initial;
 }
 
-.BackgroundColor {
+.data-corner {
   background-color: black;
   position: relative;
+}
+
+.back-button {
+  font-size: 6rem;
+  position: absolute;
+  z-index: 1;
+  transform: rotate(-90deg);
+  color: rgb(255, 255, 255);
+  top: 80vh;
+  left: 45vw;
 }

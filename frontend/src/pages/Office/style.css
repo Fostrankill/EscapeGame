@@ -55,7 +55,7 @@
   border: 1px solid transparent;
   text-decoration: none;
   height: 15vh;
-  font-size: 10vh;
+  font-size: 5vw;
   width: 15vw;
   top: 49vh;
   right: 25vw;
@@ -67,4 +67,8 @@
 
 #officemsgbutton:hover {
   cursor: pointer;
+}
+
+.office {
+  background-color: black;
 }

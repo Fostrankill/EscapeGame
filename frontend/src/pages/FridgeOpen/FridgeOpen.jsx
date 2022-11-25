@@ -4,7 +4,7 @@ import image from "../../assets/Wild/DATA/Frigo/FridgeOpen.jpg";
 
 function FridgeOpen() {
   return (
-    <div className="BackgroundColor">
+    <div className="fridge-open">
       <textarea
         id="textFridgeOpen"
         value="Pas Possible! Il faudrait vraiment être tordu pour mettre un passeport à cet endroit !"

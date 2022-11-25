@@ -1,20 +1,17 @@
-img {
+.back9 img {
   height: 100vh;
-  width: 60vw;
+  width: 83vw;
   z-index: -1;
 }
 
 .tablestyle {
-  text-decoration: none;
-  height: 10vh;
-  font-size: 10vh;
   color: rgb(255, 255, 255);
-  width: 65vw;
-  top: 60vh;
-  right: 40vw;
+  top: 32vh;
+  left: 22vw;
+  font-size: 6rem;
   position: absolute;
   z-index: 1;
-  display: hidden;
+  transform: rotate(-90deg);
 }
 
 .back9 {
@@ -25,7 +22,6 @@ img {
 
 .back9 textarea {
   position: absolute;
-
   top: 70vh;
   left: 55vw;
 }

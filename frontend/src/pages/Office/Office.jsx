@@ -6,7 +6,7 @@ import image from "../../assets/Wild/Bureau/Office.jpg";
 function Office() {
   const [officemsg, setOfficemsg] = useState(false);
   return (
-    <>
+    <div className="office">
       <Link id="officebacklink" to="/wild-hall">
         {" "}
         ❮
@@ -33,7 +33,7 @@ function Office() {
       ) : (
         <div />
       )}
-    </>
+    </div>
   );
 }
 

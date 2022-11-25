@@ -4,7 +4,7 @@ import image from "../../assets/Esca/FirstFloor.jpg";
 
 function FirstFloor() {
   return (
-    <>
+    <div className="first-floor">
       <Link id="firstfloorlink" to="/door-key">
         {" "}
       </Link>
@@ -13,7 +13,7 @@ function FirstFloor() {
         {" "}
         ❮
       </Link>
-    </>
+    </div>
   );
 }
 

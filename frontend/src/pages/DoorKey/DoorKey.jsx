@@ -6,7 +6,7 @@ import passepartout from "../../assets/Autres/passpartout.png";
 
 function DoorKey({ setGotKey, gotkey }) {
   return (
-    <>
+    <div className="door-key">
       <Link id="doorkeylink" to="/first-floor">
         {" "}
         ❮
@@ -32,9 +32,9 @@ function DoorKey({ setGotKey, gotkey }) {
           <img id="passpartoutimg" src={passepartout} alt="passe-partout" />
         </>
       ) : (
-        <div>yo</div>
+        <div>yo</div> // ?
       )}
-    </>
+    </div>
   );
 }
 

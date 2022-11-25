@@ -1,4 +1,4 @@
-img {
+.fridge-close img {
   height: 100vh;
   width: 40vw;
   z-index: -1;
@@ -8,20 +8,21 @@ img {
   height: 10vh;
   width: 15vw;
   top: 25vh;
+  right: 40vw;
   text-decoration: none;
-  font-size: 10vh;
+  font-size: 5vw;
   color: rgba(255, 255, 255, 0);
   position: absolute;
   z-index: 1;
   display: hidden;
 }
 
-.BackgroundColor {
+.fridge-close {
   background-color: black;
   position: relative;
 }
 
-.BackgroundColor #textFridge {
+.fridge-close #textFridge {
   position: absolute;
   top: 5vh;
   left: 30vw;
@@ -41,4 +42,14 @@ img {
   height: 4rem;
   font-size: 0.8rem;
   text-overflow: clip;
+}
+
+#back-btn-fClose {
+  font-size: 5vw;
+  position: absolute;
+  z-index: 1;
+  transform: rotate(-90deg);
+  color: rgb(255, 255, 255);
+  top: 90vh;
+  left: 47vw;
 }

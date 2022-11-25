@@ -17,7 +17,7 @@ function WildDoor({ gotkey }) {
     />
   );
   return (
-    <>
+    <div className="wild-door">
       <Link id="wilddoorbacklink" to="/main-hall">
         {" "}
         ❮
@@ -35,8 +35,8 @@ function WildDoor({ gotkey }) {
         {" "}
       </Link> */}
       <img id="wilddoorimg" src={image} alt="wilddoor" />
-      {gotkey ? navigate("/wild-hall") : secondternary}
-    </>
+      {gotkey ? navigate("/loic") : secondternary}
+    </div>
   );
 }
 
