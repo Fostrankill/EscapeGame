@@ -1,8 +1,10 @@
 import "./style.css";
 import { Link } from "react-router-dom";
+import { useState } from "react";
 import image12 from "../../assets/Wild/Cours/TableJS.jpg";
 
 function jsmania() {
+  const [apple, setApple] = useState(false);
   return (
     <div className="back9">
       <textarea
@@ -15,6 +17,24 @@ function jsmania() {
         ❰
       </Link>
       <img id="imagejs" src={image12} alt="imagejs" />
+      <button
+        type="button"
+        onClick={() => {
+          setApple(true);
+        }}
+        id="applebutton"
+      >
+        {" "}
+      </button>
+      {apple ? (
+        <textarea
+          placeholder="Pseudo"
+          defaultValue="APPLE = LOVE"
+          id="appletext"
+        />
+      ) : (
+        <div />
+      )}
     </div>
   );
 }

@@ -1,10 +1,8 @@
 import "./style.css";
 import { Link } from "react-router-dom";
-import { useState } from "react";
 import ImageWildHall from "../../assets/Wild/WildHall.jpg";
 
 export default function WildHall() {
-  const [apple, setApple] = useState(false);
   return (
     <div className="wild-hall">
       <Link className="Table" to="/table-js">
@@ -41,24 +39,6 @@ export default function WildHall() {
         defaultValue="Fouiller chez les Data ?"
       />
       <img className="ImageWildHall" src={ImageWildHall} alt="Hall" />
-      {apple ? (
-        <textarea
-          placeholder="Pseudo"
-          defaultValue="APPLE = LOVE"
-          id="appletext"
-        />
-      ) : (
-        <div />
-      )}
-      <button
-        type="button"
-        onClick={() => {
-          setApple(true);
-        }}
-        id="applebutton"
-      >
-        {" "}
-      </button>
     </div>
   );
 }
