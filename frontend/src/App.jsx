@@ -1,26 +1,28 @@
 import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
-import "./App.css";
 import "reset-css";
-import BuildingDoor from "@pages/BuildingDoor/BuildingDoor";
-import DoorCode from "@pages/DoorCode/DoorCode";
-import WC from "@pages/WC/WC";
-import CafeCabinet from "@pages/CafeCabinet/CafeCabinet";
-import FirstFloor from "@pages/FirstFloor/FirstFloor";
-import DoorKey from "@pages/DoorKey/DoorKey";
-import Projector from "@pages/Projector/Projector";
-import Office from "@pages/Office/Office";
 import { useState } from "react";
-import TableJS from "@pages/TableJS/TableJS";
-import MainHall from "@pages/MainHall/MainHall";
-import WildDoor from "@pages/WildDoor/WildDoor";
-import WildHall from "@pages/WildHall/WildHall";
-import Homepage from "@pages/Home";
-import DataCorner from "@pages/DataCorner/DataCorner";
-import FridgeOpen from "@pages/FridgeOpen/FridgeOpen";
-import FridgeClose from "@pages/FridgeClose/FridgeClose";
-import LoicMonster from "@pages/LoicMonster/LoicMonster";
+
+import WildHall from "./pages/WildHall/WildHall";
+import BuildingDoor from "./pages/BuildingDoor/BuildingDoor";
+import DoorCode from "./pages/DoorCode/DoorCode";
+import WC from "./pages/WC/WC";
+import CafeCabinet from "./pages/CafeCabinet/CafeCabinet";
+import FirstFloor from "./pages/FirstFloor/FirstFloor";
+import DoorKey from "./pages/DoorKey/DoorKey";
+import Projector from "./pages/Projector/Projector";
+import Office from "./pages/Office/Office";
+import TableJS from "./pages/TableJS/TableJS";
+import MainHall from "./pages/MainHall/MainHall";
+import WildDoor from "./pages/WildDoor/WildDoor";
+import Homepage from "./pages/Home";
+import DataCorner from "./pages/DataCorner/DataCorner";
+import FridgeOpen from "./pages/FridgeOpen/FridgeOpen";
+import FridgeClose from "./pages/FridgeClose/FridgeClose";
+import LoicMonster from "./pages/LoicMonster/LoicMonster";
 import Loic from "./pages/Loic/Loic";
 import { QuestContextProvider } from "./contexts/QuestObject";
+import MicroClose from "./pages/MicroClose/MicroClose";
+import "./App.css";
 
 function App() {
   const [gotkey, setGotKey] = useState(false);
@@ -51,6 +53,8 @@ function App() {
             <Route path="/data-corner" element={<DataCorner />} />
             <Route path="/fridge-open" element={<FridgeOpen />} />
             <Route path="/fridge-close" element={<FridgeClose />} />
+            <Route path="/micro-close" element={<MicroClose />} />
+
             {/* <Route path="/wc-mirror" element={<WcMirror />} /> */}
           </Routes>
         </div>
