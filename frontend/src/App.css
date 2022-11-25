@@ -16,15 +16,10 @@ code {
   text-align: center;
 }
 
-<<<<<<< HEAD
-@media (prefers-reduced-motion: no-preference) {}
-=======
 a {
   font-size: 4rem;
   text-decoration: none;
   color: white;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-}
->>>>>>> f28ba428a38b6712bd109953aa5439e0f2eec7a6
+@media (prefers-reduced-motion: no-preference) {}
