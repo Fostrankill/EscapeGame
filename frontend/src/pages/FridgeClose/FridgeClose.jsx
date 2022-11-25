@@ -6,7 +6,7 @@ function FridgeClose() {
   return (
     <div className="fridge-close">
       <textarea id="textFridge" value="Dans le frigo ?" />
-      <Link id="button" to="/fridge-open">
+      <Link id="fridgeOpenbutton" to="/fridge-open">
         {" "}
         ▦{" "}
       </Link>
