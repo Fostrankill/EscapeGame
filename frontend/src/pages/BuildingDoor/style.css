@@ -3,6 +3,7 @@
   width: 80vw;
   z-index: -1;
 }
+
 #buildingdoorlink {
   text-decoration: none;
   height: 10vh;
@@ -14,6 +15,12 @@
   position: absolute;
   z-index: 1;
   display: hidden;
+}
+
+audio {
+
+
+  position: absolute;
 }
 
 #firstdoortext {
