@@ -1,14 +1,14 @@
-.fridge-close img {
+.micro-close img {
   height: 100vh;
-  width: 40vw;
+  width: 80vw;
   z-index: -1;
 }
 
-#fridgeOpenbutton {
-  height: 10vh;
-  width: 15vw;
-  top: 25vh;
-  right: 40vw;
+#microButton {
+  height: 50vh;
+  width: 10vw;
+  top: 16vh;
+  left: 120vh;
   text-decoration: none;
   font-size: 5vw;
   color: rgba(255, 255, 255, 0);
@@ -17,18 +17,18 @@
   display: hidden;
 }
 
-.fridge-close {
+.micro-close {
   background-color: black;
   position: relative;
 }
 
-.fridge-close #textFridge {
+.micro-close #textMicroClose {
   position: absolute;
-  top: 7vh;
-  left: 30vw;
+  top: 10vh;
+  left: 40vw;
 }
 
-#textFridge {
+#textMicroClose {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -38,9 +38,9 @@
   border-radius: 30px;
   border: solid rgb(101, 90, 90) 8px;
   background-color: beige;
-  width: 15rem;
-  height: 8rem;
-  font-size: 3rem;
+  width: 10rem;
+  height: 12rem;
+  font-size: 2rem;
   text-overflow: clip;
 }
 

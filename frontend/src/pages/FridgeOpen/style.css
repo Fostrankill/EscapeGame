@@ -38,8 +38,8 @@
   border-radius: 30px;
   border: solid rgb(101, 90, 90) 8px;
   background-color: beige;
-  width: 5rem;
-  height: 13rem;
-  font-size: 0.8rem;
+  width: 12rem;
+  height: 30rem;
+  font-size: 2rem;
   text-overflow: clip;
 }

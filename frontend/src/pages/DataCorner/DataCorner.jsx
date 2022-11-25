@@ -11,7 +11,7 @@ function DataCorner() {
         {" "}
         ▦{" "}
       </Link>
-      <Link id="microButton" to="/micro-wave">
+      <Link id="microWaveButton" to="/micro-close">
         {" "}
         ▦{" "}
       </Link>

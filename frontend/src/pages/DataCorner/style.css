@@ -17,7 +17,7 @@
   transform: initial;
 }
 
-#microButton {
+#microWaveButton {
   width: 2.7vw;
   height: 2.7vh;
   aspect-ratio: 1;
@@ -54,7 +54,7 @@
   z-index: 1;
   transform: rotate(-90deg);
   color: rgb(255, 255, 255);
-  top: 80vh;
+  top: 90vh;
   left: 45vw;
 }
 
