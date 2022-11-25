@@ -11,13 +11,14 @@ const QuestContext = createContext({
 export default QuestContext;
 
 export function QuestContextProvider({ children }) {
-  const [gotKeys, setGotKeys] = useState(false);
+  const [gotKey, setGotKey] = useState(false);
   const [gotMonster, setGotMonster] = useState(true);
 
   const context = useMemo(
-    () => ({ gotKeys, gotMonster, setGotKeys, setGotMonster }),
-    [gotMonster, gotKeys]
+    () => ({ gotKey, gotMonster, setGotKey, setGotMonster }),
+    [gotMonster, gotKey]
   );
+
   return (
     <QuestContext.Provider value={context}>{children}</QuestContext.Provider>
   );
