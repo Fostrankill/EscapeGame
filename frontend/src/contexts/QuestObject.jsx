@@ -12,7 +12,7 @@ export default QuestContext;
 
 export function QuestContextProvider({ children }) {
   const [gotKey, setGotKey] = useState(false);
-  const [gotMonster, setGotMonster] = useState(true);
+  const [gotMonster, setGotMonster] = useState(false);
 
   const context = useMemo(
     () => ({ gotKey, gotMonster, setGotKey, setGotMonster }),
