@@ -2,6 +2,7 @@ import "./style.css";
 import { Link } from "react-router-dom";
 import { useState } from "react";
 import image from "../../assets/Entrée/BuildingDoor.jpg";
+import sound from "@assets/passport.wav";
 
 function BuildingDoor() {
   const [firstdoor, setFirstDoor] = useState(false);
@@ -11,6 +12,10 @@ function BuildingDoor() {
         {" "}
       </Link>
       <img id="buildingdoorimg" src={image} alt="entrancewild" />
+
+      <audio
+        autoplay="true"
+        src={sound}></audio>
 
       <button
         type="button"
