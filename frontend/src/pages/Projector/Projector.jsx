@@ -6,7 +6,7 @@ import image from "../../assets/Wild/Projo/Projector.jpg";
 function Projector() {
   const [phoneGirl, setPhoneGirl] = useState(false);
   return (
-    <>
+    <div className="projector">
       <Link id="projectorbacklink" to="/wild-hall">
         {" "}
         ❮
@@ -33,7 +33,7 @@ function Projector() {
       ) : (
         <div />
       )}
-    </>
+    </div>
   );
 }
 

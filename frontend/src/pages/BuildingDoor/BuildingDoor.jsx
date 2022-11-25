@@ -6,7 +6,7 @@ import image from "../../assets/Entrée/BuildingDoor.jpg";
 function BuildingDoor() {
   const [firstdoor, setFirstDoor] = useState(false);
   return (
-    <>
+    <div className="building-door">
       <Link id="buildingdoorlink" to="/door-code">
         {" "}
       </Link>
@@ -30,7 +30,7 @@ function BuildingDoor() {
       ) : (
         <div />
       )}
-    </>
+    </div>
   );
 }
 

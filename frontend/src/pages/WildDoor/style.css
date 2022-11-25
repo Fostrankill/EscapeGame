@@ -55,7 +55,7 @@
   border: 1px solid transparent;
   text-decoration: none;
   height: 4vh;
-  font-size: 10vh;
+  font-size: 5vw;
   width: 6vw;
   top: 53vh;
   right: 55vw;
@@ -63,4 +63,8 @@
   position: absolute;
   z-index: 1;
   background-color: transparent;
+}
+
+.wild-door {
+  background-color: black;
 }

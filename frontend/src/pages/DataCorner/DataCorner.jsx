@@ -4,7 +4,7 @@ import image from "../../assets/Wild/DATA/DataCorner.jpg";
 
 function DataCorner() {
   return (
-    <div className="BackgroundColor">
+    <div className="data-corner">
       <Link id="fridgeButton" to="/fridge-close">
         {" "}
         ▦{" "}
@@ -17,7 +17,10 @@ function DataCorner() {
         {" "}
         ▦{" "}
       </Link>
-      <Link to="/wild-hall"> ❰</Link>
+      <Link to="/wild-hall" className="back-button">
+        {" "}
+        ❰
+      </Link>
       <img src={image} alt="WildHall" />
     </div>
   );

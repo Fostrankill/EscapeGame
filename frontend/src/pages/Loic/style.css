@@ -1,0 +1,56 @@
+.loic {
+  background-color: black;
+  position: relative;
+}
+
+.loic img {
+  height: 100vh;
+  width: 40vw;
+  background-repeat: no-repeat;
+  border-style: none;
+}
+
+.loic a {
+  z-index: 1;
+  position: absolute;
+  font-size: 5vw;
+  left: 62vw;
+  top: 50vh;
+  transform: rotate(-90deg);
+}
+
+.loic button {
+  position: absolute;
+  height: 6vh;
+  width: 7vw;
+  cursor: pointer;
+  border-radius: 1rem;
+  left: 46vw;
+  top: 92vh;
+}
+
+.loic textarea {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  vertical-align: center;
+  border-radius: 30px;
+  border: solid rgb(101, 90, 90) 8px;
+  background-color: beige;
+  width: 30rem;
+  font-size: 1.4rem;
+  text-overflow: clip;
+  position: absolute;
+  top: 37vh;
+  left: 20vw;
+  padding: 1rem;
+}
+
+.no-valhalla {
+  visibility: visible;
+}
+
+.valhalla {
+  visibility: hidden;
+}

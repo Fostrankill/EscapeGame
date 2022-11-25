@@ -1,13 +1,12 @@
-img {
+.fridge-open img {
   height: 100vh;
   width: 40vw;
   z-index: -1;
 }
 
-a {
+.fridge-open a {
   text-decoration: none;
-  /* height: 10vh; */
-  font-size: 10vh;
+  font-size: 5vw;
   color: white;
   width: 6vw;
   top: 90vh;
@@ -18,12 +17,12 @@ a {
   transform: rotate(270deg);
 }
 
-.BackgroundColor {
+.fridge-open {
   background-color: black;
   position: relative;
 }
 
-.BackgroundColor #textFridgeOpen {
+.fridge-open #textFridgeOpen {
   position: absolute;
   top: 5vh;
   left: 30vw;
