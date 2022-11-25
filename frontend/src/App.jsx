@@ -24,6 +24,7 @@ import Office from "@pages/Office/Office";
 import Loic from "@pages/Loic/Loic";
 import BuildingDoor from "@pages/BuildingDoor/BuildingDoor";
 import LoicMonster from "@pages/LoicMonster/LoicMonster";
+import MicroOpen from "@pages/MicroOpen/MicroOpen";
 import Timer from "./components/Timer/Timer";
 import { QuestContextProvider } from "./contexts/QuestObject";
 import MicroClose from "./pages/MicroClose/MicroClose";
@@ -62,6 +63,7 @@ function App() {
             <Route path="/data-corner" element={<DataCorner />} />
             <Route path="/fridge-open" element={<FridgeOpen />} />
             <Route path="/fridge-close" element={<FridgeClose />} />
+            <Route path="/micro-open" element={<MicroOpen />} />
             <Route path="/micro-close" element={<MicroClose />} />
             <Route path="/end-page" element={<EndPage />} />
           </Routes>
