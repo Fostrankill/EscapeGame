@@ -1,13 +1,13 @@
 .back9 img {
   height: 100vh;
-  width: 83vw;
+  width: 70vw;
   z-index: -1;
 }
 
 .tablestyle {
   color: rgb(255, 255, 255);
-  top: 32vh;
-  left: 22vw;
+  top: 85vh;
+  left: 45vw;
   font-size: 6rem;
   position: absolute;
   z-index: 1;

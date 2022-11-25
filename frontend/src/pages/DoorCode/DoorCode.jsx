@@ -17,7 +17,7 @@ export default function DoorCode() {
       <button type="submit" onClick={() => setPassWordAttempt(passWordInput)}>
         Enter
       </button>
-      {passWordAttempt === "hello" ? (
+      {passWordAttempt === "#141281" ? (
         <Navigate to="/main-hall" replace />
       ) : null}
       <Link to="/building-door">❰</Link>
