@@ -1,0 +1,58 @@
+.back3 img {
+  height: 100vh;
+  width: 100vw;
+  z-index: -1;
+}
+
+.hallax {
+  text-decoration: none;
+  height: 10vh;
+  font-size: 5vw;
+  color: rgb(255, 255, 255);
+  top: 80vh;
+  left: 15vw;
+  position: absolute;
+  z-index: 1;
+  display: hidden;
+}
+
+.buttonx {
+  height: 5vh;
+  width: 15vw;
+  top: 55vh;
+  right: 65vw;
+  text-decoration: none;
+  font-size: 5vw;
+  color: rgba(255, 255, 255, 0);
+  position: absolute;
+  z-index: 1;
+}
+
+.back3 {
+  position: relative;
+
+  background-color: black;
+}
+
+.back3 textarea {
+  position: absolute;
+
+  top: 70vh;
+  left: 55vw;
+}
+
+.ok6 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  vertical-align: center;
+  padding-top: 2rem;
+  border-radius: 30px;
+  border: solid rgb(101, 90, 90) 8px;
+  background-color: beige;
+  width: 20vw;
+  height: 15vh;
+  font-size: 1.4rem;
+  text-overflow: clip;
+}

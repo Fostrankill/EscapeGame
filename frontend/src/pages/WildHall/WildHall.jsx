@@ -13,7 +13,7 @@ export default function WildHall() {
       <textarea
         className="TextTableJs"
         placeholder="Pseudo"
-        defaultValue="Faire un tour chez les JS ?"
+        defaultValue="Un petit tour chez les JS ?"
       />
       <Link className="Projector" to="/projector">
         ❰

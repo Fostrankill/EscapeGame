@@ -10,7 +10,8 @@ import WildHall from "@pages/WildHall/WildHall";
 import DataCorner from "@pages/DataCorner/DataCorner";
 import FridgeOpen from "@pages/FridgeOpen/FridgeOpen";
 import FridgeClose from "@pages/FridgeClose/FridgeClose";
-import LoicMonster from "@pages/LoicMonster/LoicMonster";
+import Backyard from "@pages/Backyard/Backyard";
+import Monster from "@pages/Backyard/monster/Monster";
 import Loose from "@pages/Loose/Loose";
 import EndPage from "@pages/EndPage/EndPage";
 import DoorCode from "@pages/DoorCode/DoorCode";
@@ -22,7 +23,7 @@ import Projector from "@pages/Projector/Projector";
 import Office from "@pages/Office/Office";
 import Loic from "@pages/Loic/Loic";
 import BuildingDoor from "@pages/BuildingDoor/BuildingDoor";
-import Backyard from "@pages/Backyard/Backyard";
+import LoicMonster from "@pages/LoicMonster/LoicMonster";
 import Timer from "./components/Timer/Timer";
 import { QuestContextProvider } from "./contexts/QuestObject";
 import MicroClose from "./pages/MicroClose/MicroClose";
@@ -45,6 +46,7 @@ function App() {
             <Route path="/main-hall" element={<MainHall />} />
             <Route path="/wild-door" element={<WildDoor gotkey={gotkey} />} />
             <Route path="/backyard" element={<Backyard />} />
+            <Route path="/monster" element={<Monster />} />
             <Route
               path="/door-key"
               element={<DoorKey gotkey={gotkey} setGotKey={setGotKey} />}
