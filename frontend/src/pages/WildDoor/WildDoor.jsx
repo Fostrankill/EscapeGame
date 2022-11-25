@@ -1,12 +1,13 @@
 import "./style.css";
 import { Link, useNavigate } from "react-router-dom";
-import { useState } from "react";
-import PropTypes from "prop-types";
+import { useState, useContext } from "react";
+import QuestContext from "../../contexts/QuestObject";
 import image from "../../assets/Wild/WildDoor.jpg";
 
-function WildDoor({ gotkey }) {
+function WildDoor() {
   const [lockedDoor, setLockedDoor] = useState(true);
   const navigate = useNavigate();
+  const { gotKey } = useContext(QuestContext);
   const secondternary = lockedDoor ? (
     <div />
   ) : (
@@ -35,13 +36,9 @@ function WildDoor({ gotkey }) {
         {" "}
       </Link> */}
       <img id="wilddoorimg" src={image} alt="wilddoor" />
-      {gotkey ? navigate("/loic") : secondternary}
+      {gotKey ? navigate("/loic") : secondternary}
     </div>
   );
 }
-
-WildDoor.propTypes = {
-  gotkey: PropTypes.bool.isRequired,
-};
 
 export default WildDoor;

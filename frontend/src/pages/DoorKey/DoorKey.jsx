@@ -1,10 +1,12 @@
 import "./style.css";
 import { Link } from "react-router-dom";
-import PropTypes from "prop-types";
+import { useContext } from "react";
+import QuestContext from "../../contexts/QuestObject";
 import image from "../../assets/Esca/DoorKey.jpg";
 import passepartout from "../../assets/Autres/passpartout.png";
 
-function DoorKey({ setGotKey, gotkey }) {
+function DoorKey() {
+  const { gotKey, setGotKey } = useContext(QuestContext);
   return (
     <div className="door-key">
       <Link id="doorkeylink" to="/first-floor">
@@ -21,7 +23,7 @@ function DoorKey({ setGotKey, gotkey }) {
       >
         {" "}
       </button>
-      {gotkey ? (
+      {gotKey ? (
         <>
           <textarea
             placeholder="Pseudo"
@@ -32,15 +34,10 @@ function DoorKey({ setGotKey, gotkey }) {
           <img id="passpartoutimg" src={passepartout} alt="passe-partout" />
         </>
       ) : (
-        <div>yo</div> // ?
+        <div />
       )}
     </div>
   );
 }
-
-DoorKey.propTypes = {
-  setGotKey: PropTypes.func.isRequired,
-  gotkey: PropTypes.bool.isRequired,
-};
 
 export default DoorKey;
