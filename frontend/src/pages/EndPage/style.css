@@ -1,0 +1,56 @@
+.EndImage {
+  height: 100vh;
+  width: 100vw;
+  z-index: -1;
+}
+
+.FinalImage {
+  position: absolute;
+  height: 30vh;
+  width: 20vw;
+  z-index: 1;
+  top: 35vh;
+  right: 25vw;
+}
+
+.EndingText {
+  width: 30vw;
+  height: 30vh;
+  top: 33vh;
+  right: 55vw;
+  position: absolute;
+  padding-top: 1vw;
+  border-radius: 30px;
+  border: solid rgb(101, 90, 90) 4px;
+  background-color: beige;
+  font-size: 150%;
+  text-overflow: clip;
+  z-index: 1;
+  text-align: center;
+}
+
+.EndingTitle {
+  position: absolute;
+  text-align: center;
+  right: 35vw;
+  top: 5vh;
+  color: rgb(144, 42, 42);
+  font-size: 10rem;
+  font-family: "ok";
+  letter-spacing: 0.2rem;
+  z-index: 1;
+}
+
+#MenuButton {
+  position: absolute;
+  font-family: "ok";
+  border-radius: 30px;
+  font-size: 2.2rem;
+  height: 5vh;
+  width: 10vw;
+  box-shadow: 10px 7px 7px rgb(12, 12, 12);
+  z-index: 1;
+  right: 45vw;
+  top: 80vh;
+  padding-bottom: 3%;
+}
