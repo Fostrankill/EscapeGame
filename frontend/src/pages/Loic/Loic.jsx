@@ -21,8 +21,13 @@ export default function Loic() {
       </button>
       <textarea
         placeholder="Pseudo"
-        value="Jamais tu ne seras accepté au Valhalla"
+        value="Tu te fous de ma gueule ?"
         className={textAreaRender ? "no-valhalla" : "valhalla"}
+      />
+      <textarea
+        placeholder="Pseudo"
+        value="J'AI SOIF !!!"
+        className={textAreaRender ? "valhalla" : "no-valhalla"}
       />
     </div>
   );
