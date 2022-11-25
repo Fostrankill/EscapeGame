@@ -20,6 +20,7 @@ import FridgeOpen from "@pages/FridgeOpen/FridgeOpen";
 import FridgeClose from "@pages/FridgeClose/FridgeClose";
 import LoicMonster from "@pages/LoicMonster/LoicMonster";
 import Loose from "@pages/Loose/Loose";
+import EndPage from "@pages/EndPage/EndPage";
 import Loic from "./pages/Loic/Loic";
 import Timer from "./components/Timer/Timer";
 import { QuestContextProvider } from "./contexts/QuestObject";
@@ -56,6 +57,7 @@ function App() {
             <Route path="/data-corner" element={<DataCorner />} />
             <Route path="/fridge-open" element={<FridgeOpen />} />
             <Route path="/fridge-close" element={<FridgeClose />} />
+            <Route path="/end-page" element={<EndPage />} />
             {/* <Route path="/wc-mirror" element={<WcMirror />} /> */}
           </Routes>
         </div>
