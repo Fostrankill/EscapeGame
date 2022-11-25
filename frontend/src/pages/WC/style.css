@@ -1,0 +1,49 @@
+#wcimage {
+  border: 1px solid red;
+  height: 100vh;
+  width: 60vw;
+  z-index: -1;
+}
+
+#wclink {
+  text-decoration: none;
+  height: 10vh;
+  font-size: 5vw;
+  color: rgb(255, 255, 255);
+  width: 6vw;
+  top: 80vh;
+  right: 40vw;
+  position: absolute;
+  z-index: 1;
+  display: hidden;
+  transform: rotate(-90deg);
+}
+
+.back {
+  position: relative;
+
+  background-color: black;
+}
+
+.back textarea {
+  position: absolute;
+
+  top: 50vh;
+  left: 57vw;
+}
+
+#textwc {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  vertical-align: center;
+  padding-top: 2rem;
+  border-radius: 30px;
+  border: solid rgb(101, 90, 90) 8px;
+  background-color: beige;
+  width: 20vw;
+  height: 15vh;
+  font-size: 1.4rem;
+  text-overflow: clip;
+}

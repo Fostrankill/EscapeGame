@@ -1,0 +1,45 @@
+.fridge-open img {
+  height: 100vh;
+  width: 40vw;
+  z-index: -1;
+}
+
+.fridge-open a {
+  text-decoration: none;
+  font-size: 5vw;
+  color: white;
+  width: 6vw;
+  top: 90vh;
+  right: 45vw;
+  position: absolute;
+  z-index: 1;
+  display: hidden;
+  transform: rotate(270deg);
+}
+
+.fridge-open {
+  background-color: black;
+  position: relative;
+}
+
+.fridge-open #textFridgeOpen {
+  position: absolute;
+  top: 5vh;
+  left: 30vw;
+}
+
+#textFridgeOpen {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  vertical-align: center;
+  padding-top: 1rem;
+  border-radius: 30px;
+  border: solid rgb(101, 90, 90) 8px;
+  background-color: beige;
+  width: 12rem;
+  height: 30rem;
+  font-size: 2rem;
+  text-overflow: clip;
+}

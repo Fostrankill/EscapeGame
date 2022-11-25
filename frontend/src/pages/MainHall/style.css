@@ -1,0 +1,119 @@
+.ImageHall {
+  height: 100vh;
+  width: 100vw;
+  z-index: -1;
+}
+
+.Wild {
+  text-decoration: none;
+  height: 70vh;
+  font-size: 5vw;
+  width: 6vw;
+  top: 30vh;
+  transform: rotate(80deg);
+  right: 90vw;
+  position: absolute;
+  z-index: 1;
+  display: hidden;
+}
+
+.WC {
+  text-decoration: none;
+  height: 10vh;
+  font-size: 5vw;
+  width: 6vw;
+  top: 50vh;
+  transform: rotate(90deg);
+  right: 58vw;
+  position: absolute;
+  z-index: 1;
+  display: hidden;
+}
+
+.Backyard {
+  text-decoration: none;
+  height: 10vh;
+  font-size: 4vw;
+  width: 6vw;
+  top: 50vh;
+  transform: rotate(90deg);
+  right: 38vw;
+  position: absolute;
+  z-index: 1;
+  display: hidden;
+}
+
+.FirstFloor {
+  text-decoration: none;
+  height: 50vh;
+  font-size: 5vw;
+  width: 6vw;
+  top: 30vh;
+  transform: rotate(90deg);
+  right: 15vw;
+  position: absolute;
+  z-index: 1;
+  display: hidden;
+}
+
+.TextWild {
+  width: 15vw;
+  height: 4vh;
+  font-size: 1.2rem;
+  top: 65vh;
+  right: 72vw;
+  position: absolute;
+  z-index: 1;
+  padding-top: 1vw;
+  border-radius: 30px;
+  border: solid rgb(101, 90, 90) 4px;
+  background-color: beige;
+  text-overflow: clip;
+  text-align: center;
+}
+
+.TextWC {
+  width: 15vw;
+  height: 4vh;
+  top: 60vh;
+  right: 56vw;
+  position: absolute;
+  padding-top: 1vw;
+  border-radius: 30px;
+  border: solid rgb(101, 90, 90) 4px;
+  background-color: beige;
+  font-size: 1.2rem;
+  text-overflow: clip;
+  z-index: 1;
+  text-align: center;
+}
+
+.TextBackyard {
+  width: 15vw;
+  height: 4vh;
+  font-size: 1.2rem;
+  top: 60vh;
+  right: 33vw;
+  position: absolute;
+  z-index: 1;
+  padding-top: 1vw;
+  border-radius: 30px;
+  border: solid rgb(101, 90, 90) 4px;
+  background-color: beige;
+  text-align: center;
+}
+
+.TextFirstFloor {
+  font-size: 1.2rem;
+  width: 15vw;
+  height: 4vh;
+  top: 65vh;
+  right: 5vw;
+  position: absolute;
+  z-index: 1;
+  padding-top: 1vw;
+  border-radius: 30px;
+  border: solid rgb(101, 90, 90) 4px;
+  background-color: beige;
+  text-align: center;
+}

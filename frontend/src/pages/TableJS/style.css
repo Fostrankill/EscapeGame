@@ -1,0 +1,43 @@
+.back9 img {
+  height: 100vh;
+  width: 70vw;
+  z-index: -1;
+}
+
+.tablestyle {
+  color: rgb(255, 255, 255);
+  top: 85vh;
+  left: 45vw;
+  font-size: 6rem;
+  position: absolute;
+  z-index: 1;
+  transform: rotate(-90deg);
+}
+
+.back9 {
+  position: relative;
+
+  background-color: black;
+}
+
+.back9 textarea {
+  position: absolute;
+  top: 70vh;
+  left: 55vw;
+}
+
+.ok9 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  vertical-align: center;
+  padding-top: 2rem;
+  border-radius: 30px;
+  border: solid rgb(101, 90, 90) 8px;
+  background-color: beige;
+  width: 20vw;
+  height: 15vh;
+  font-size: 1.4rem;
+  text-overflow: clip;
+}

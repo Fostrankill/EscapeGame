@@ -1,0 +1,74 @@
+#officeimg {
+  height: 100vh;
+  width: 65vw;
+  z-index: -1;
+}
+
+#officebacklink {
+  text-decoration: none;
+  color: white;
+  height: 2vh;
+  font-size: 10vh;
+  width: 1.2vw;
+  top: 97vh;
+  right: 53vw;
+  transform: rotate(-90deg);
+  position: absolute;
+  z-index: 1;
+  display: hidden;
+}
+
+/* #keyholewilddoor {
+  border: 1px solid black;
+  text-decoration: none;
+  height: 4vh;
+  font-size: 10vh;
+  width: 6vw;
+  top: 53vh;
+  right: 55vw;
+  transform: rotate(-90deg);
+  position: absolute;
+  z-index: 1;
+  display: hidden;
+} */
+
+#textoffice {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  vertical-align: center;
+  padding-top: 2rem;
+  border-radius: 30px;
+  border: solid rgb(101, 90, 90) 8px;
+  background-color: beige;
+  width: 20vw;
+  height: 10vh;
+  font-size: 1.2rem;
+  text-overflow: clip;
+  position: absolute;
+  top: 28vh;
+  right: 20vw;
+}
+
+#officemsgbutton {
+  border: 1px solid transparent;
+  text-decoration: none;
+  height: 15vh;
+  font-size: 5vw;
+  width: 15vw;
+  top: 49vh;
+  right: 25vw;
+  transform: rotate(-90deg);
+  position: absolute;
+  z-index: 1;
+  background-color: transparent;
+}
+
+#officemsgbutton:hover {
+  cursor: pointer;
+}
+
+.office {
+  background-color: black;
+}

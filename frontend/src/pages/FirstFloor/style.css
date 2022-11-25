@@ -1,0 +1,35 @@
+#firstfloorimg {
+  height: 100vh;
+  width: 70vw;
+  z-index: -1;
+}
+#firstfloorlink {
+  text-decoration: none;
+  height: 2vh;
+  font-size: 5vw;
+  color: white;
+  width: 1.2vw;
+  top: 39.2vh;
+  right: 43.5vw;
+  position: absolute;
+  z-index: 1;
+  display: hidden;
+}
+
+#fflinkback {
+  text-decoration: none;
+  height: 2vh;
+  font-size: 5vw;
+  color: white;
+  width: 1.2vw;
+  top: 97vh;
+  right: 53vw;
+  transform: rotate(-90deg);
+  position: absolute;
+  z-index: 1;
+  display: hidden;
+}
+
+.first-floor {
+  background-color: black;
+}

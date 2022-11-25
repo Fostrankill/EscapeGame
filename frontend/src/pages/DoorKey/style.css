@@ -1,0 +1,70 @@
+#doorkeyimg {
+  height: 100vh;
+  width: 35vw;
+  z-index: -1;
+}
+
+#doorkeylink {
+  text-decoration: none;
+  height: 2vh;
+  font-size: 10vh;
+  color: white;
+  width: 1.2vw;
+  top: 97vh;
+  right: 53vw;
+  transform: rotate(-90deg);
+  position: absolute;
+  z-index: 5;
+  display: hidden;
+}
+
+#passpartoutimg {
+  z-index: 1;
+  position: absolute;
+  top: 60vh;
+  right: 25vw;
+  height: 40vh;
+  width: 55vh;
+}
+
+#passpartmessage {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  vertical-align: center;
+  padding-top: 2rem;
+  border-radius: 30px;
+  border: solid rgb(101, 90, 90) 8px;
+  background-color: beige;
+  width: 20vw;
+  height: 10vh;
+  font-size: 1.1rem;
+  text-overflow: clip;
+  position: absolute;
+  top: 60vh;
+  right: 45vw;
+  font-style: italic;
+}
+
+#passpartmessage p {
+  width: 80%;
+  font-size: 1.5rem;
+  font-style: italic;
+}
+
+#getkeybutton {
+  z-index: 3;
+  top: 20vh;
+  right: 37vw;
+  width: 20vw;
+  height: 40vh;
+  position: absolute;
+  background-color: transparent;
+  border: solid transparent 4px;
+  cursor: pointer;
+}
+
+.door-key {
+  background-color: black;
+}
