@@ -35,3 +35,29 @@
   width: 4.6vw;
   border: 2px solid black;
 }
+
+.door-code textarea {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  vertical-align: center;
+  border-radius: 30px;
+  border: solid rgb(101, 90, 90) 8px;
+  background-color: beige;
+  width: 30rem;
+  font-size: 1.4rem;
+  text-overflow: clip;
+  position: absolute;
+  top: 37vh;
+  left: 20vw;
+  padding: 1rem;
+}
+
+.right-pw {
+  visibility: hidden;
+}
+
+.wrong-pw {
+  visibility: visible;
+}
