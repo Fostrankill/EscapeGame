@@ -20,7 +20,7 @@ export default function MainHall() {
       <textarea
         className="TextWC"
         placeholder="Pseudo"
-        value="Aller aux WC ?"
+        value="Une envie pressante ?"
       />
 
       <Link className="Backyard" to="/backyard">
@@ -29,7 +29,7 @@ export default function MainHall() {
       <textarea
         className="TextBackyard"
         placeholder="Pseudo"
-        value="Aller à la cours ?"
+        value="Aller prendre l'air ?"
       />
 
       <Link className="FirstFloor" to="/first-floor">
@@ -38,7 +38,7 @@ export default function MainHall() {
       <textarea
         className="TextFirstFloor"
         placeholder="Pseudo"
-        value="Aller au premier étage ?"
+        value="Monter l'escalier ?"
       />
 
       <img className="ImageHall" src={ImageHall} alt="Hall" />
