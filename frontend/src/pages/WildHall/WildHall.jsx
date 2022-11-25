@@ -11,7 +11,7 @@ export default function WildHall() {
       <textarea
         className="TextTableJs"
         placeholder="Pseudo"
-        defaultValue="Aller voir chez les JS ?"
+        defaultValue="Un petit tour chez les JS ?"
       />
       <Link className="Projector" to="/projector">
         ❰
@@ -19,7 +19,7 @@ export default function WildHall() {
       <textarea
         className="TextProjector"
         placeholder="Pseudo"
-        defaultValue="Aller au projecteur ?"
+        defaultValue="Enquetez au projecteur ?"
       />
       <Link className="Office" to="/office">
         ❰
@@ -27,7 +27,7 @@ export default function WildHall() {
       <textarea
         className="TextOffice"
         placeholder="Pseudo"
-        defaultValue="Aller au bureau ?"
+        defaultValue="Vérifier le bureau ?"
       />
       <Link className="Data" to="/data-corner">
         ❰
@@ -35,7 +35,7 @@ export default function WildHall() {
       <textarea
         className="TextData"
         placeholder="Pseudo"
-        defaultValue="Aller chez les Data ?"
+        defaultValue="Inspecter les Data ?"
       />
       <img className="ImageWildHall" src={ImageWildHall} alt="Hall" />
     </>
