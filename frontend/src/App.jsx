@@ -19,6 +19,8 @@ import DataCorner from "@pages/DataCorner/DataCorner";
 import FridgeOpen from "@pages/FridgeOpen/FridgeOpen";
 import FridgeClose from "@pages/FridgeClose/FridgeClose";
 import LoicMonster from "@pages/LoicMonster/LoicMonster";
+import Backyard from "@pages/Backyard/Backyard";
+import Monster from "@pages/Backyard/monster/Monster";
 import Loic from "./pages/Loic/Loic";
 import { QuestContextProvider } from "./contexts/QuestObject";
 
@@ -37,6 +39,8 @@ function App() {
             <Route path="/table-js" element={<TableJS />} />
             <Route path="/main-hall" element={<MainHall />} />
             <Route path="/wild-door" element={<WildDoor gotkey={gotkey} />} />
+            <Route path="/backyard" element={<Backyard />} />
+            <Route path="/monster" element={<Monster />} />
             {/* <Route path="/backyard" element={<Backyard />} /> */}
             <Route
               path="/door-key"

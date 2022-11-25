@@ -22,4 +22,5 @@ a {
   color: white;
 }
 
-@media (prefers-reduced-motion: no-preference) {}
+@media (prefers-reduced-motion: no-preference) {
+}
