@@ -1,0 +1,15 @@
+#timer {
+  font-size: 2.5rem;
+  z-index: 6;
+  display: inline;
+  top: 2vh;
+  right: 10vw;
+  position: absolute;
+  background: rgb(195, 14, 14);
+  color: white;
+  border: 3px black solid;
+  border-radius: 10px;
+  padding: 1rem;
+  font-family: Courier;
+  letter-spacing: 0.3rem;
+}
